@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Notioli</string>
+    <string name="checklist_list">Checklists</string>
+    <string name="places">Places</string>
+    <string name="calendar">Calendar</string>
+</resources>

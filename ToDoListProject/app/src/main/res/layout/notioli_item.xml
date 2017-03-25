@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notioli_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Hi"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notioli_delete"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentEnd="true"
+        android:onClick="deleteNotioli"
+        android:text="DELETE"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notioli_edit"
+        android:layout_toLeftOf="@+id/notioli_delete"
+        android:layout_alignParentBottom="true"
+        android:onClick="editNotioli"
+        android:text="EDIT"/>
+
+</RelativeLayout>
